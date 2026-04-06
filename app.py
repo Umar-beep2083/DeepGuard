@@ -8,8 +8,7 @@ st.set_page_config(page_title='DeepGuard', page_icon='🛡️', layout='wide')
 
 with st.sidebar:
     st.header("⚙️ Configuration")
-    st.info("Model: CNN-Spectrogram (v0.1)
-Status: Weights Pending")
+    st.info("Model: CNN-Spectrogram (v0.1)\\nStatus: Weights Pending")
     st.slider("Confidence Threshold", 0.0, 1.0, 0.85)
 
 st.title('DeepGuard: Audio Forensics & Deepfake Detection 🎙️')
